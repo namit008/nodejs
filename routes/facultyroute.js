@@ -194,8 +194,8 @@ console.log(token);
 
           auth: {
             //  console.log("hello mail");
-            user: "npatni846@gmail.com",    // SendGrid Username
-            pass: "sfrgboxydrrulhpq"    // SendGrid Password
+            user: "useremail",    // SendGrid Username or gmail
+            pass: "userpassword"    // SendGrid Password or gmail
           }
 
 
@@ -296,8 +296,8 @@ facultyRouter.post('/reset/:token', function(req, res) {
         requireTLS:true,
         auth: {
           //  console.log("hello mail");
-          user: "npatni846@gmail.com",    // SendGrid Username
-          pass: "sfrgboxydrrulhpq"    // SendGrid Password
+          user: "username",    // SendGrid Username or gmail
+          pass: "password"    // SendGrid Password or gmail
         }
 
 
